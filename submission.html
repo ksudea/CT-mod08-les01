@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Recipe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Submit Your Recipe</h1>
+  </header>
+
+  <main class="main-content">
+    <form id="new-recipe-form">
+      <fieldset>
+        <legend>New Cookie Recipe:</legend>
+        <label for="name">Name of your recipe:</label>
+        <div class="text-input">
+            <input type="text" id="name" name="name" required>
+        </div>
+        <label for="ingredients">Ingredients required (with amounts):</label>
+        <div class="text-input">
+            <textarea id="ingredients" name="ingredients" rows="5" required></textarea>
+        </div>
+        <label for="steps">Steps:</label>
+        <div class="text-input">
+            <textarea id="steps" name="steps" rows="10" required></textarea>
+        </div>
+        <button class="button" type="submit">Submit Your Cookie!</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>Cookies Will Dominate The World... Soon... </p>
+  </footer>
+</body>
+</html>
